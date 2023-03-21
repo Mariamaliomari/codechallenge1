@@ -5,55 +5,55 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-restaurants = Restaurant.create(
-    [
+# restaurants = Restaurant.create(
+#     [
 
-  {
-     "id": 1,
+#   {
+#      "id": 1,
 
-     "name": "Sottocasa NYC",
+#      "name": "Sottocasa NYC",
 
-    "address": "298 Atlantic Ave, Brooklyn, NY 11201"
-   },
+#     "address": "298 Atlantic Ave, Brooklyn, NY 11201"
+#    },
 
-   {
+#    {
 
-    "id": 2,
-     "name": "PizzArte",
+#     "id": 2,
+#      "name": "PizzArte",
 
-     "address": "69 W 55th St, New York, NY 10019"
+#      "address": "69 W 55th St, New York, NY 10019"
 
-   }
+#    }
 
- ]
-     )
+#  ]
+#      )
 
 
- pizzas = Pizza.create(
-     [
+#  pizzas = Pizza.create(
+#      [
 
-   {
+#    {
 
-     "id": 1,
+#      "id": 1,
 
-    "name": "Cheese",
+#     "name": "Cheese",
 
-     "ingredients": "Dough, Tomato Sauce, Cheese"
+#      "ingredients": "Dough, Tomato Sauce, Cheese"
 
-   },
-   {
+#    },
+#    {
 
-     "id": 2,
+#      "id": 2,
 
-     "name": "Pepperoni",
+#      "name": "Pepperoni",
 
-     "ingredients": "Dough, Tomato Sauce, Cheese, Pepperoni"
+#      "ingredients": "Dough, Tomato Sauce, Cheese, Pepperoni"
 
-   }
+#    }
 
- ]
- )
-   Character.create(name: "Luke", movie: movies.first)
+#  ]
+#  )
+#    Character.create(name: "Luke", movie: movies.first)
  RestaurantPizza.create(
 [
 {
